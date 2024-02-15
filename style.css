@@ -1,0 +1,182 @@
+@font-face {
+  font-family: young-serif;
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: outfit;
+  src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(247, 230, 207);
+  min-height: 100vh;
+}
+
+.main {
+  background-color: aliceblue;
+  width: 50%;
+  margin: 100px;
+  border-radius: 35px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 35px;
+}
+
+.head {
+  margin-top: 40px;
+}
+
+.head h1 {
+  font-family: young-serif;
+}
+
+.head p {
+  margin-top: 10px;
+  margin-bottom: 35px;
+  font-family: outfit;
+  font-weight: 300;
+}
+
+.preparation {
+  background-color: rgba(237, 109, 158, 0.07);
+  border-radius: 25px;
+  padding: 20px;
+  font-family: outfit;
+}
+
+.preparation ul li::marker {
+  color: rgb(165, 42, 75);
+}
+
+.preparation h3 {
+  font-weight: 600;
+  color: rgb(165, 42, 75);
+}
+
+.preparation ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-position: inside;
+}
+
+.preparation li {
+  margin-top: 6px;
+}
+
+.ingredients {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 0.2px rgba(85, 85, 85, 0.3) solid;
+}
+
+.ingredients h2 {
+  font-family: young-serif;
+  font-weight: 550;
+  margin-top: 10px;
+  color: brown;
+}
+
+.ingredients ul li::marker {
+  color: brown;
+}
+
+.ingredients ul {
+  margin-top: 15px;
+  font-family: outfit;
+  font-weight: 300;
+  list-style-position: inside;
+  padding-left: 7px;
+  margin-bottom: 20px;
+}
+.ingredients li {
+  margin-bottom: 6px;
+}
+
+.instructions {
+  margin-top: 15px;
+  font-family: outfit;
+  font-weight: 300;
+  margin-top: 20px;
+  border-bottom: 0.2px rgba(85, 85, 85, 0.3) solid;
+}
+
+.instructions h2 {
+  font-family: young-serif;
+  font-weight: 550;
+  color: brown;
+}
+
+.instructions ol {
+  margin-top: 15px;
+  list-style-position: inside;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.instructions ol li::marker {
+  color: brown;
+  font-weight: bold;
+}
+
+.instructions li {
+  margin-top: 6px;
+}
+
+.nutrition {
+  font-family: outfit;
+  margin-top: 20px;
+}
+
+.nutrition h2 {
+  font-family: young-serif;
+  font-weight: 550;
+  color: brown;
+}
+
+.nutrition p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition td {
+  padding: 10px 0px 10px 12px;
+  border-bottom: 0.2px rgba(85, 85, 85, 0.2) solid;
+}
+
+.value {
+  font-weight: bold;
+  color: brown;
+}
+
+.attribution {
+  margin-top: 40px;
+  font-family: outfit;
+  font-weight: bold;
+  font-size: small;
+}
