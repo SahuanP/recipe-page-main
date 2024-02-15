@@ -24,7 +24,7 @@ body {
 }
 
 .main {
-  background-color: aliceblue;
+  background-color: white;
   width: 50%;
   margin: 100px;
   border-radius: 35px;
@@ -167,6 +167,10 @@ body {
 .nutrition td {
   padding: 10px 0px 10px 12px;
   border-bottom: 0.2px rgba(85, 85, 85, 0.2) solid;
+}
+
+.nutrition tr:last-child td {
+  border-bottom: none;
 }
 
 .value {
